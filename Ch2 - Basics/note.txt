@@ -1,0 +1,11 @@
+3---
+function not include parentheses mean i want  definition  of function as object thats passed to thing  like object
+important   arg  come before  unlimited args  interpreter this way knows args
+def arg_printer(a, b, *args, option=True, **kwargs): order important for interpreter  
+We can use both *args and **kwargs in a function but *args must be put before **kwargs.
+5--
+for x in range(5,10):
+  if (x % 2 == 0): continue✅
+  print(x)❌
+  print("this is a test")❌	
+continue turn back to head of loop   after continue not execute 
