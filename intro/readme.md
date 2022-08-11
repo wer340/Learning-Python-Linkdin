@@ -1,0 +1,54 @@
+# python 
+
+py --version
+
+# 1️⃣
+youa can see that im using python 3.9 on my computer 
+now if you didnt result that look like this
+the word python followed by a version number you probly got some kind of error message 
+or maybe you got a version number thats older than this
+✔✔ and thats mean that python is not on your computer or you need  to go get latest version
+python.org
+# 2️⃣
+☕☕package type ▶`python`  python   distrbute Microsoft v2022
+# 3️⃣
+☕☕open palette ctrl+shift+p ▶  `>python select interpretter`
+and
+☕☕✔ setting ctrl+,  ▶ type `executeinfiledir`     check it have tick✅ `python>Terminal:Execute In File Dir` 
+this prefernce say to vscode 
+to look in the same directory as the program source file when it needs to work with other file
+# 4️⃣
+in powerl shell window   type   py  or python
+in linux or mac  type ▶python3   beacuse  these os have  older version 2.7   and mapped to older version
+in order that  say ▶python3  till say yo the os thats want  version3 python
+
+# 5️⃣
+power shall   type ▶python   after enter   3 angle bracket   `>>>`
+bracket promt here 
+just type then immediatly run 
+python like js is interpretter lang 
+in other words its not like java or c or c++  the application does not need to be compiled and then built into an
+executable before you can run it 
+the python interpreter simply takes each line of code  as it comes across it and then inteprets and executes the code
+▶ exit()  out of envirement
+✅same indent level   not care number indent 
+
+# module 
+unlike  c# jaava  
+python does not  automatically look for a specific function when the program start
+so whats happing here
+```python
+if __name__ == "__main__": 
+          func()
+```
+
+[`d``under` name=double underscores] 
+ this  check see this module  this file of python code is loaded and the interpreter has assigned
+the double underscore name variable the value of main 
+thats means that this python prograam was executed as a main program its was started from the command line
+or invoked from the python executable somehow and therefore this funation right here 
+the main function should be called
+the reason  python code can be used multiple ways my code in this file can be run as its own program 
+but i could also build a reusable module that can be included inside of other python program 
+so i want use the other program  i wouldnt want all this code to just start runing when it was imported into other program 
+beacuse that woul cause problem 
