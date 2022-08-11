@@ -1,0 +1,28 @@
+ 1--
+1️⃣  create file 
+f = open("textfile.txt","w+")
+plus sign wich mean that py should create the file if it doesnt already exist
+
+2--
+2️⃣  about file 
+datetime and time  and os[os.path]  module
+path.exists ▶boolean
+path.isfile
+path.isdir
+path.realpath ▶ give adress file 
+datetime.datetime.now()-datetime.datetime.fromtimestamp(path.getmtime("wordbook.txt"))  
+getmtime()   m=modify   a = access  c=creation     time  ▶time.ctime()  give the timestamp
+
+3--
+3️⃣  manipulate file 
+shutill [shell utilities] module   
+root,tail=path.split(src[.txt])
+ shutil.make_archive("backup","zip",root_dir)
+from zipfile import ZipFile
+python -m zipfile -c monty.zip spam.txt eggs.txt  careate zip
+python -m zipfile -e monty.zip target-dir/  extract
+python -m zipfile -l monty.zip    list 
+-t  test zip file
+
+open("note.txt" ,"a+")
+a+    create and append

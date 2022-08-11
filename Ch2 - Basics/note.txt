@@ -9,3 +9,7 @@ for x in range(5,10):
   print(x)❌
   print("this is a test")❌	
 continue turn back to head of loop   after continue not execute 
+
+6--
+super().drive(parameter)  > super() acause  thats acces to method of property parent  when dont want overwrite 
+means append thing to method  

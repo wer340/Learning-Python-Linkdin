@@ -1,0 +1,9 @@
+1--
+maanipulaate   time     by  datatime module
+
+datatime import datatime✔
+datatime import date✔
+datatime import time
+
+date briefly show 
+
