@@ -6,12 +6,13 @@
 from datetime import date
 from datetime import time
 from datetime import datetime
+from sqlite3 import Date
 
 def main():
     ## DATE OBJECTS
     # TODO: Get today's date from the simple today() method from the date class
     today=date.today()
-    print(today)
+    print("tody is : ",today)
 
     # TODO: print out the date's individual components
     print(f" date components :{today.day} ,{today.month},{today.year}")
@@ -29,7 +30,7 @@ def main():
     t=datetime.time(datetime.now())
     print("current time is #### : ", t)
  
-
+   
   
 if __name__ == "__main__":
     main()
