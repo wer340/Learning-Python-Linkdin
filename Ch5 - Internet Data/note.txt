@@ -1,0 +1,13 @@
+1---
+interacte to internet 
+imort urllib.request 
+this module make http request  
+
+2---
+json 
+javascript object notation
+json essential training
+https://earthquake.usgs.gov/earthquakes/feed/
+for process json in py  ▶import json
+❌✅important  the json load       json=load(data or address )  then handle   object[][]
+#%4.7f  means  4 digit  integer an 7 digit decimal
